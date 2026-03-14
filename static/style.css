@@ -9,17 +9,14 @@ body {
 }
 
 header{
-    display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: 25vw 40vw 35vw;
-
     background-color: #131921;
 }
 
-.row1 {
-    display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: 25vw 40vw 35vw;
-    grid-template-areas: row1-sec1 row1-sec2 row1-sec3;
-    background-color: #131921;
+.nav1 {
+    display: inline;
+    
+}
+#sec1,#sec2,#sec3 {
+    display: flex;
+    flex-flow: row;
 }
