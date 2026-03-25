@@ -10,13 +10,68 @@ body {
 
 header{
     background-color: #131921;
+    color: white;
 }
 
 .nav1 {
-    display: inline;
-    
-}
-#sec1,#sec2,#sec3 {
     display: flex;
-    flex-flow: row;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 12px;
+}
+
+
+#sec1, #sec2, #sec3 {
+    display: flex;
+    align-items: center;
+}
+
+
+#sec1 { 
+    flex: 1; 
+}
+#sec2 { 
+    flex: 5; 
+}
+#sec3 {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#lang,
+#account,
+#orders,
+#cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#lang {
+    flex-direction: row;
+    align-items: center;
+}
+
+#account h6,
+#orders h6 {
+    margin: 0;
+    font-size: 12px;
+}
+
+#account h5,
+#orders h5 {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+#amazonlogo img {
+    height: 40px;
+}
+
+#cart img {
+    height: 35px;
 }
